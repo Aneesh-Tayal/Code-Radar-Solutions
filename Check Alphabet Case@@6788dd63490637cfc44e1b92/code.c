@@ -4,7 +4,7 @@
 int main() {
     char a;
     scanf("%c", &a);
-    (islower(a)==0) ? printf("Uppercase") : printf("Lowercase");
+    (isalpha(a)==0) ? printf("Not an alphabet") : (islower(a)==0) ? printf("Uppercase") : printf("Lowercase");
     
     return 0;
 }

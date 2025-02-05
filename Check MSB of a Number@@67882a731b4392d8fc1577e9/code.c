@@ -2,8 +2,8 @@
 #define BITS sizeof(int) * 8
 
 int main() {
-    int a, msb;
-    scanf("%d", &a);
+    long a, msb;
+    scanf("%ld", &a);
 
     msb = 1 << (BITS - 1);
 

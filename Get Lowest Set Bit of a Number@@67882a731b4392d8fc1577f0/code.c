@@ -14,12 +14,12 @@ int main() {
         i++;
     }
 
-    for (int j = i - 1; j >= 0; j--)
+    for (int j = i - 1; j >= 0; j--){
         for (int k = 0, k<j , k++){
             b *= 10;
         }
         bits += binary[j]*b;
-
+    }
     check = n & 1;
     for (int l = 0, l<i, l++){
         if (binary[l]==check){

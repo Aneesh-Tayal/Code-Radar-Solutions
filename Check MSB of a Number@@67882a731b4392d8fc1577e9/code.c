@@ -7,7 +7,7 @@ int main() {
 
     msb = 1 << (BITS - 1);
 
-    (num & msb) ? printf("Set") : printf("Not Set");
+    (a & msb) ? printf("Set") : printf("Not Set");
     
     return 0;
 }

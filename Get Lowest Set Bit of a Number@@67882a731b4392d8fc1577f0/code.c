@@ -1,9 +1,5 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
     int binary[32], i = 0, n, b = 1, bits = 0, check = 0;
     scanf("%d", &n);
@@ -27,7 +23,7 @@ int main() {
             break;
         }
         else {
-            continue
+            continue;
         }
     }
 

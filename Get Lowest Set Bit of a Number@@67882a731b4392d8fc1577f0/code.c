@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d", &a);
-    (a & 1) ? printf("1") : printf("0");
+    printf("d", sizeof(a));
     
     return 0;
 }

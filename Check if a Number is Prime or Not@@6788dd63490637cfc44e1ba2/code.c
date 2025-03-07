@@ -4,11 +4,11 @@
 int main(void){
     int a;
     scanf("%d", &a);
-    bool x = false;
+    bool x = true;
 
     for (int i = 2; i<a; i++){
         if (a%i==0){
-            x = true;
+            x = false;
         }
     }
 

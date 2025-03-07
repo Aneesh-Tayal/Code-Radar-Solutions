@@ -6,13 +6,18 @@ int main(void){
     scanf("%d", &a);
     bool x = false;
 
-    for (let i = 2; i<a; i++){
+    for (int i = 2; i<a; i++){
         if (a%i==0){
             x = true;
         }
     }
 
-    printf("x");
+    if (x==true){
+        printf("Prime");
+    }
+    else{
+        printf("Not Prime");
+    }
 
     return 0;
 }

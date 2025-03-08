@@ -3,23 +3,18 @@
 int main(void){
     int a,b;
     char c;
-    scanf("%d %d %s", &a, &b, &c);
+    scanf("%d %d %c", &a, &b, &c);
 
-    int plus = strcmp(c, '+');
-    int minus = strcmp(c, '-');
-    int multi = strcmp(c, '*');
-    int divi = strcmp(c, '/');
-
-    if (plus==0){
+    if (c == '+'){
         printf("%d", a+b);
     }
-    else if (minus==0){
+    else if (c == '-'){
         printf("%d", a-b);
     }
-    else if (multi==0){
+    else if (c == '*'){
         printf("%d", a*b);
     }
-    else if (divi==0){
+    else if (c == '/'){
         printf("%d", a/b);
     }
 

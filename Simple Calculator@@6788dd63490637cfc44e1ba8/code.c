@@ -15,7 +15,12 @@ int main(void){
         printf("%d", a*b);
     }
     else if (c == '/'){
+        if (b==0){
+            printf("Invalid");
+        }
+        else{
         printf("%d", a/b);
+        }
     }
 
     return 0;

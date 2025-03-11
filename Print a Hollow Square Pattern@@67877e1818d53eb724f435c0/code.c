@@ -5,14 +5,14 @@ int main(){
     scanf("%d", &a);
 
     for (int i = 0; i<a; i++){
-        if (i==a && i==1){
+        if (i==a-1 || i==0){
             for (int j = 0; j<a; j++){
                 printf("*");
             }
         }
         else{
             for (int j = 0; j<a; j++){
-                if (j==0 && j==a-1){
+                if (j==0 || j==a-1){
                     printf("*");
                 }
                 else{

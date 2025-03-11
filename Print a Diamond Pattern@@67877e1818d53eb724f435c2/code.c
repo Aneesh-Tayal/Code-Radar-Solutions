@@ -17,7 +17,7 @@ int main(){
         printf("\n");
     }
     for (int i = a; i>1; i--){
-        for (int k = 1; k<i; k++){
+        for (int k = 1; k<a-i; k++){
             printf(" ");
         }
         for (int j = i/2; j>=0; j--){

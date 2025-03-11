@@ -20,10 +20,10 @@ int main(){
         for (int k = 1; k<i; k++){
             printf(" ");
         }
-        for (int j = i; j>=0; j--){
+        for (int j = i/2; j>=0; j--){
             printf("*");
         }
-        for (int l = i; l>0; l--){
+        for (int l = i/2; l>0; l--){
             printf("*");
         }
         printf("\n");
